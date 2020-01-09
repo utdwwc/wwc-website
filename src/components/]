@@ -1,0 +1,46 @@
+import React, { Component } from 'react'
+import { Jumbotron, Container, Col, Image } from 'react-bootstrap';
+import './Wicys.css';
+
+export default class Wicys extends Component {
+        render() {
+                return (
+                        <div>
+			<Jumbotron className="jumbotron jumbotron-wicys">	
+			<Image src="assets/wicys-logo.jpg" circle className="wicys-logo-2" />
+			<Jumbotron className="jumbotron jumbotron-wicysabout">
+			<h6><wicys-heading>About Us</wicys-heading></h6>
+			<hr></hr>
+			<h2>
+			Women in Cybersecurity (WiCyS) is a community of engagement, encouragement, and support for women in cybersecurity. Both WWC and WiCyS promote, celebrate, and support females in technology in our community. UTD WiCyS is a chapter of a national organization that was founded at UTD in 2019 as a subgroup of WWC in order to reach as many women as possible. Our chapter hopes to encourage women to pursue a career in the highly dynamic and expansive field of cybersecurity by offering tools, events, and networking opportunities throughout the academic school year in conjunction with the opportunities already provided by WWC.
+			</h2>
+			</Jumbotron>
+			<Jumbotron className="jumbotron jumbotron-wicysmembership">
+			<h6><wicys-heading>Membership</wicys-heading></h6>
+			<hr></hr>
+			<h2>
+			Anyone and everyone is welcome to take part in WiCyS events. However, national membership comes with added benefits, including the ability to post your resume to the WiCyS Job Board, discounts on Conference attendance, engagement through Market Studies, and access to a Job Board, Speakers Bureau, events and webinars, an Online Community Forum, and the WiCyS Affiliate Program.
+For more information on joining: https://www.wicys.org/join
+			</h2>
+			</Jumbotron>
+			<Jumbotron className="jumbotron jumbotron-wicysconference">
+			<h6><wicys-heading>WicyS Conference</wicys-heading></h6>
+			<hr></hr>
+			<h2>
+			Every year, WiCyS hosts a conference in the spring to connect companies, students, and experienced leaders and professionals in the field. It provides an opportunity for networking, knowledge and expertise sharing, and mentorship for women in cybersecurity.
+For more information: https://www.wicys.org/conference
+			</h2>
+			</Jumbotron>
+			<Jumbotron className="jumbotron jumbotron-wicysresources">
+			<h6><wicys-heading>Additional Resources</wicys-heading></h6>
+			<hr></hr>
+			<Jumbotron className="jumbotron jumbotron-resourcesbox">
+			<a class="btn btn-light" href="https://www.wicys/org">Official Website</button>
+			<a class="btn btn-default" href="https://www.wicys/org">Official Website</a>
+			</Jumbotron>
+			</Jumbotron>
+                        </Jumbotron>
+			</div>
+                )
+        }
+}

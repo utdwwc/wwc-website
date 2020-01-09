@@ -1,0 +1,47 @@
+.jumbotron-event {
+        background: #000 url('wwc-kickoff.jpg') no-repeat center center;
+        background-size: cover;
+        opacity: 0.9;
+        min-height: 450px;
+	padding-bottom: 0;
+        color: white;
+}
+
+.jumbotron h4 {
+        margin-top: 12%;
+        left: 10px;
+        font-size: 1.2em;
+        font-weight: 900;
+        color: white;
+	font-family: 'Domine', serif;
+}
+
+
+.flyer-image {
+        margin-top: 5%;
+	margin-bottom: 10%;
+	width: 620px;
+	height: 860px;
+	float: left;
+
+}
+.btn-info {
+        background-image: none;
+        border: none;
+	background-color: #6A8D92;
+        border-radius: 10%;
+	margin-top: 20%;
+	margin-left: 15%;
+	font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+}
+
+.btn-info:hover {
+	background-color: grey;
+}
+
+event-info {
+	top: 320px;
+	font-family: 'Roboto', sans-serif;
+}
+

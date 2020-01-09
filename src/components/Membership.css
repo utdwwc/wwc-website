@@ -1,0 +1,28 @@
+.jumbotron-membership {
+        background: #000 url('wwc-kickoff.jpg') no-repeat center center;
+        background-size: cover;
+        opacity: 0.8;
+        min-height: 100px;
+	max-height: 520px;
+        color: white;
+}
+
+.jumbotron h5 {
+        margin-top: 15%;
+        left: 10px;
+        font-size: 90px;
+	font-weight: 900;
+        color: white;
+        font-family: 'Domine', serif;
+}
+
+
+question {
+	font-family: "Domine", serif;
+	font-weight: 900;
+	font-size: 30px;
+}
+
+answer {
+	font-size: 26px;
+}

@@ -1,0 +1,85 @@
+.jumbotron-wicys {
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        height: 90px;
+        margin-left: 10%;
+        margin-right: 10%;
+
+}
+
+.jumbotron-wicysabout {
+	background-color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: -100px;
+	margin-bottom: 10px;
+}
+
+.jumbotron-wicysmembership {
+        background-color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+        margin-top: -50px;
+        margin-bottom: 10px;
+}
+
+.jumbotron-wicysconference {
+        background-color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+        margin-top: -40px;
+        margin-bottom: 40px;
+}
+
+.jumbotron-wicysresources {
+        background-color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+        margin-top: -20px;
+        margin-bottom: 10px;
+}
+
+.jumbotron-resourcesbox {
+        background-color: #2B2D42;
+        width: 1200px;
+        margin-left: 120px;
+        margin-bottom: 130px;
+
+}
+
+.wicys-logo-2 {
+        margin-top: -50px; 
+        margin-bottom: 50px;
+        margin-left: 380px;
+        width: 45%;
+}
+
+.btn-link {
+        background-image: none;
+        margin-top: -60px;
+        margin-left: 110px;
+        width:230px;
+        height: 50px;
+        color: #2B2D42;
+        font-size: 27px;
+        font-family: 'Roboto', sans-serif;
+}
+
+.btn-link:hover {
+	color: grey;
+}
+
+wicys-heading {
+	font-size: 65px;
+}
+
+link-text {
+	font-family: "Domine", serif;
+	margin-left: 560px;
+	color: #2B2D42;
+}
+
+color-link {
+	color: #2B2D42;
+}
