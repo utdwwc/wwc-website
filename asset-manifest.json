@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/wwc-website/static/css/main.832b1522.chunk.css",
+    "main.js": "/wwc-website/static/js/main.d49c4010.chunk.js",
+    "main.js.map": "/wwc-website/static/js/main.d49c4010.chunk.js.map",
+    "runtime-main.js": "/wwc-website/static/js/runtime-main.b2f7650d.js",
+    "runtime-main.js.map": "/wwc-website/static/js/runtime-main.b2f7650d.js.map",
+    "static/js/2.047cb118.chunk.js": "/wwc-website/static/js/2.047cb118.chunk.js",
+    "static/js/2.047cb118.chunk.js.map": "/wwc-website/static/js/2.047cb118.chunk.js.map",
+    "index.html": "/wwc-website/index.html",
+    "precache-manifest.cbe392b51b7dd3ad59bd5e431a7b1214.js": "/wwc-website/precache-manifest.cbe392b51b7dd3ad59bd5e431a7b1214.js",
+    "service-worker.js": "/wwc-website/service-worker.js",
+    "static/css/main.832b1522.chunk.css.map": "/wwc-website/static/css/main.832b1522.chunk.css.map",
+    "static/js/2.047cb118.chunk.js.LICENSE": "/wwc-website/static/js/2.047cb118.chunk.js.LICENSE",
+    "static/media/FallKickoff.css": "/wwc-website/static/media/wwc-kickoff.fd50fc7a.jpg",
+    "static/media/Officers.css": "/wwc-website/static/media/wwc-team.28c1907a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2f7650d.js",
+    "static/js/2.047cb118.chunk.js",
+    "static/css/main.832b1522.chunk.css",
+    "static/js/main.d49c4010.chunk.js"
+  ]
+}
