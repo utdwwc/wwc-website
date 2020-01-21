@@ -11,6 +11,7 @@ export default class Home extends Component {
 			<div class="overlay">
 			<h6><main-title>Women Who Compute</main-title></h6>
 			<h3><sub-title>The University of Texas at Dallas</sub-title></h3>
+			<a href="#who-we-are" class="fa fa-arrow-circle-down" aria-hidden="true"></a>
 			</div>
 			<Carousel>
 			<Carousel.Item>
@@ -29,7 +30,7 @@ export default class Home extends Component {
 			<img className="carousel-image" src="assets/wwc-sm.jpg" alt="Fifth Slide" />
 			</Carousel.Item>
 			</Carousel>
-			<Jumbotron className="jumbotron-infobox">
+			<div id="who-we-are"><a href="who-we-are"></a><Jumbotron className="jumbotron-infobox">
 			<h6>Who We Are</h6>
 			<hr></hr>
 			<h2>
@@ -67,6 +68,8 @@ export default class Home extends Component {
 			</Row>
 	As an organization, Women Who Compute hopes to successfully seek the interest of its member base to provide them with proper support and encouragement to puruse the numerous opportunities available for them engineering and computer science.</h2>
 			</Jumbotron>
+			</div>
+			<Jumbotron className="jumbotron-eventbox">
 			<h6>Recent Events</h6>
 			<hr></hr>
 			<Jumbotron className="jumbotron-flyerbox">
@@ -104,9 +107,10 @@ export default class Home extends Component {
 			</Row>
 			<a class="btn btn-default" href="/events">More</a>
 			</Jumbotron>
-			<h6>Sister Organizations</h6>
-			<hr></hr>
+			</Jumbotron>
 			<Jumbotron className="jumbotron-sisterorgs">
+			<h6>Sister Organizations</h6>
+                        <hr></hr>
 			<h2>To reach out to as many members as possible, Women Who Compute has partnered with the following organizations to represent their national chapters at UT Dallas. 
 			</h2>
 			<Row>

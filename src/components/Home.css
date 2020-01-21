@@ -1,14 +1,13 @@
 .carousel {
 	margin-top: 0px;
-	margin-left: 200px;
 	margin-bottom: 100px;
-	max-width: 1500px;
+	max-width: 2100px;
 	transition: transform 2s ease, opacity .5s ease-out;
 }
 
 .carousel-image {
-	height: 700px;
-	width: 1500px;
+	height: 873px;
+	width: 2100px;
         filter: brightness(65%);	
 }
 
@@ -16,7 +15,7 @@
   color: white;
   position:absolute;
   z-index:12;
-  top: 35%;
+  top: 45%;
   left:0;
   width:100%;
   text-align:center;
@@ -36,6 +35,22 @@ sub-title {
 	font-family: 'Raleway', sans-serif;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
+.fa-arrow-circle-down {
+	margin-top: 10px;
+        font-size: 85px;
+        text-align: center;
+        color: white;
+}
+
+.fa-arrow-circle-down:hover {
+        color: #0097A7;
+        text-decoration: none;
+}
+
 .jumbotron-infobox {
         background-color: white;
 	margin-top: 20px;
@@ -46,11 +61,21 @@ sub-title {
 
 }
 
+.jumbotron-eventbox {
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        height: 970px;
+        margin-left: 10%;
+        margin-right: 10%;
+
+}
+
 .jumbotron-flyerbox {
 	background-color: #0097a7;
 	width: 1200px;
-	height: 650px;
-	margin-left: 350px;
+	height: 670px;
+	margin-left: 130px;
 	margin-bottom: 130px;
 
 }
@@ -72,10 +97,10 @@ sub-title {
 
 .jumbotron-sisterorgs {
 	background-color: white;
-	margin-top: -50px;
+	margin-bottom: 100px;
 	margin-left: 10%;
 	margin-right: 10%;
-	height: 600px;
+	height: 780px;
 }
 
 .wicys-logo {
