@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import { Link } from 'react-router-dom';
-import { Jumbotron, Container, Row, Col, Image, Button, Carousel } from 'react-bootstrap';
+import { Jumbotron, Container, Row, Col, Image, Button, Carousel, Card, CardDeck } from 'react-bootstrap';
 import './Home.css';
 
 export default class Home extends Component {
@@ -29,28 +29,76 @@ export default class Home extends Component {
 			<h6>Who We Are</h6>
 			<hr></hr>
 			<h2>
-			Women Who Compute is a community for women pursuing careers in engineering and computer science at The University of Texas at Dallas. We aim to provide opportunities for mentorship, personal and professional development, and social bonding with women of paralleled interests in computing. Representing <strong>one of the largest women-advocating organizations on campus</strong>, Women Who Compute strives to:<br></br><br></br>
+			Women Who Compute is a community for women pursuing careers in engineering and computer science at The University of Texas at Dallas. We aim to provide opportunities for mentorship, personal and professional development, and social bonding with women of paralleled interests in computing.<br></br><br></br>
+			Representing <strong>one of the largest women-advocating organizations on campus</strong>, Women Who Compute strives to:<br></br><br></br>
+			<Row className="show-grid align-items-center">
+			<Col>
+			<Card className="goals-card">
+			<Card.Body>
 			<ol>Cultivate a <strong>community</strong> of female engineering and computer science students at the University of Texas at Dallas.</ol>
+			</Card.Body>
+			</Card>
+			</Col>
+			<Col>
+			<Card className="goals-card">
+			<Card.Body>
 			<ol>Provide <strong>mentorship</strong> and <strong>support</strong> to women in computing.</ol>
+			</Card.Body>
+			</Card>
+			</Col>
+			<Col>
+			<Card className="goals-card">
+			<Card.Body>
 			<ol>Provide personal and professional <strong>development</strong>.</ol>
+			</Card.Body>
+			</Card>
+			</Col>
+			<Col>
+			<Card className="goals-card">
+			<Card.Body>
 			<ol><strong>Encourage women</strong> to pursue a career in the fields of engineering and computer science.</ol><br></br>
+			</Card.Body>
+			</Card>
+			</Col>
+			</Row>
 	As an organization, Women Who Compute hopes to successfully seek the interest of its member base to provide them with proper support and encouragement to puruse the numerous opportunities available for them engineering and computer science.</h2>
 			</Jumbotron>
 			<h6>Recent Events</h6>
 			<hr></hr>
 			<Jumbotron className="jumbotron-flyerbox">
 			<Row className="show-grid text-center">
-			<Col xs={16} sm={4} className="person-wrapper">
-                        <Image src="assets/speed-mentoring-flyer.jpg" circle className="flyer" />
+			<Col xs={16} sm={4}>
+			<Card className="flyer-card">
+			<a href="/f19events/speed-mentoring" class="btn">
+                        <Card.Img src="assets/speed-mentoring-flyer.jpg" className="flyer" />
+                        <Card.Body>
+                        <Card.Title><card-title>Speed Mentoring</card-title></Card.Title>
+                        </Card.Body>
+			</a>
+                        </Card>
 			</Col>
-			<Col xs={16} sm={4} className="person-wrapper">
-                        <Image src="assets/intuit-coding-ws-flyer.jpg" circle className="flyer" />
-                        </Col>
-                        <Col xs={16} sm={4} className="person-wrapper">
-                        <Image src="assets/r-ladies-flyer.jpg" circle className="flyer" />
-                        </Col>
+			<Col xs={16} sm={4}>
+			<Card className="flyer-card">
+			<a href="/f19events/intuit-coding-ws" class="btn">
+                        <Card.Img src="assets/intuit-coding-ws-flyer.jpg" className="flyer" />
+                        <Card.Body>
+			<Card.Title><card-title>Intuit Coding Workshop</card-title></Card.Title>
+			</Card.Body>
+			</a>
+			</Card>
+			</Col>
+                        <Col xs={16} sm={4}>
+                        <Card className="flyer-card">
+			<a href="/f19events/r-ladies-tech-talk" class="btn">
+			<Card.Img src="assets/r-ladies-flyer.jpg" className="flyer" />
+			<Card.Body>
+			<Card.Title><card-title>R Ladies Tech Talk</card-title></Card.Title>
+			</Card.Body>
+			</a>
+                        </Card>
+			</Col>
 			</Row>
-			<a class="btn btn-default" href="/events">See All</a>
+			<a class="btn btn-default" href="/events">More</a>
 			</Jumbotron>
 			<h6>Sister Organizations</h6>
 			<hr></hr>
@@ -58,11 +106,19 @@ export default class Home extends Component {
 			<h2>To reach out to as many members as possible, Women Who Compute has partnered with the following organizations to represent their national chapters at UT Dallas. 
 			</h2>
 			<Row>
-			<Col xs={16} sm={4} className="person-wrapper">
-			<Image src="assets/wicys-logo.jpg" circle className="wicys-logo" />
+			<Col xs={12} sm={6} className="person-wrapper">
+			<Card className="logo-card">
+			<a href="/wicys" class="btn">
+			<Card.Img src="assets/wicys-logo.jpg" className="wicys-logo" />
+			</a>
+			</Card>
 			</Col>
-			<Col xs={16} sm={4} className="person-wrapper">
-			<Image src="assets/girls-who-code-logo.jpg" circle className="gwc-logo" />
+			<Col xs={12} sm={6} className="person-wrapper">
+			<Card className="logo-card">
+			<a href="/girls-who-code" class="btn">
+			<Card.Img src="assets/girls-who-code-logo.jpg" className="gwc-logo" />
+			</a>
+			</Card>
 			</Col>
 			</Row>
 			</Jumbotron>
@@ -70,7 +126,7 @@ export default class Home extends Component {
                         <div class="container text-center">
                         <Row>
                         <Col xs={12} sm={4} className="footer-wrapper">
-                        <Image src="assets/wwc-logo-3.png" circle className="footer-logo" />
+                        <Image src="assets/our-logo.png" circle className="footer-logo" />
                         </Col>
 			<Col xs={12} sm={4} className="footer-wrapper text-left">
 			<h5><ft-head>About</ft-head></h5>
@@ -93,8 +149,7 @@ export default class Home extends Component {
                         <a href="https://instagram.com/utdwwc/" target="_blank" class="fa fa-instagram"></a>
 			<a href="mailto:utdwwc@gmail.com" target="_blank" class="fa fa-envelope"></a>
                         </ul>
-			</div>
-			<div class="footer-bottom text-center py-3">UTD Women Who Compute | Website by Nisha Rajesh</div>  
+			</div>  
                         </div>
                         </div>
 		)

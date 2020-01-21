@@ -2,7 +2,7 @@ nav.navbar, .navbar-default {
 	min-height: 80px;
 	font-size: 20px;
 	padding: 5px 20px;
-	background-color: #6A8D92 !important;
+	background-color: #0097a7 !important;
 }
 
 .navbar-default {
@@ -76,27 +76,13 @@ nav.navbar, .navbar-default {
 
 
 .logo {
-	width: 7.5%;
-}
-
-
-nav-h {
-	padding: 1em;
-	font-size: 25px;
-	font-family: 'Domine', serif;
-	font-weight: 90px;
-}
-
-nav-sh {
-	padding: 1em;
-	margin-left: 2%;
-	font-size: 20px;
-	font-family: 'Roboto', sans-serif;
+	margin-left: 20px;
+	
 }
 
 nav-tab {
-	font-family: 'Robot', sans-serif;
-	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 19px;
 }
 
 

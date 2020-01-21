@@ -13,7 +13,7 @@
         font-size: 1.2em;
         font-weight: 900;
         color: white;
-	font-family: 'Domine', serif;
+	font-family: 'Montserrat', serif;
 }
 
 
@@ -33,7 +33,7 @@
 	margin-top: 20%;
 	margin-left: 15%;
 	font-size: 25px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Raleway', sans-serif;
 }
 
 .btn-info:hover {
@@ -42,6 +42,6 @@
 
 event-info {
 	top: 320px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 

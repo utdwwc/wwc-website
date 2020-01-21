@@ -43,7 +43,7 @@ For more information on the WiCys 2020 Conference, click <a href="https://www.wi
                         <div class="container text-center">
                         <Row>
                         <Col xs={12} sm={4} className="footer-wrapper">
-                        <Image src="assets/wwc-logo-3.png" circle className="footer-logo" />
+                        <Image src="assets/our-logo.png" circle className="footer-logo" />
                         </Col>
                         <Col xs={12} sm={4} className="footer-wrapper text-left">
                         <h5><ft-head>About</ft-head></h5>
@@ -67,7 +67,6 @@ For more information on the WiCys 2020 Conference, click <a href="https://www.wi
                         <a href="mailto:utdwwc@gmail.com" target="_blank" class="fa fa-envelope"></a>
                         </ul>
                         </div>
-                        <div class="footer-bottom text-center py-3">UTD Women Who Compute | Website by Nisha Rajesh</div>
                         </div>
 			</div>
                 )

@@ -7,14 +7,12 @@ export default class CustomNavbar extends Component {
 		return (
 <div>
   <Navbar bg="primary" variant="dark">
-  <Image src="assets/wwc-logo-3.png" circle className="logo" />
-    <Navbar.Brand href="/"><nav-h>Women Who Compute</nav-h>
-    <br></br><nav-sh>The University of Texas at Dallas</nav-sh></Navbar.Brand>
+    <Navbar.Brand href="/"><Image src="assets/rsz_our-logo.png" className="logo" /></Navbar.Brand>
     <Nav>
-      <Nav.Link href="/events"><nav-tab>Events</nav-tab></Nav.Link>
-      <Nav.Link href="/officers"><nav-tab>Team</nav-tab></Nav.Link>
-      <Nav.Link href="/membership-faqs"><nav-tab>Membership FAQs</nav-tab></Nav.Link>
-      <NavDropdown title=<nav-tab>Sister Organizations</nav-tab> id="nav-dropdown">
+      <Nav.Link href="/events"><nav-tab>EVENTS</nav-tab></Nav.Link>
+      <Nav.Link href="/officers"><nav-tab>TEAM</nav-tab></Nav.Link>
+      <Nav.Link href="/membership-faqs"><nav-tab>FAQs</nav-tab></Nav.Link>
+      <NavDropdown title=<nav-tab>SISTER ORGANIZATIONS</nav-tab> id="nav-dropdown">
         <NavDropdown.Item href="/wicys"><nav-tab>WiCyS</nav-tab></NavDropdown.Item>
         <NavDropdown.Item href="/girls-who-code"><nav-tab>Girls Who Code</nav-tab></NavDropdown.Item>
       </NavDropdown>

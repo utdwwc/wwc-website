@@ -47,7 +47,7 @@
         height: 50px;
         color: #2B2D42;
         font-size: 27px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Raleway', sans-serif;
 }
 
 .btn-link:hover {
@@ -59,7 +59,7 @@ wicys-heading {
 }
 
 link-text {
-	font-family: "Domine", serif;
+	font-family: 'Montserrat', sans-serif;
 	margin-left: 560px;
 	color: #2B2D42;
 }
