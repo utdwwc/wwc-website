@@ -1,21 +1,45 @@
 .carousel {
 	margin-top: 0px;
 	margin-left: 200px;
-	margin-bottom: 150px;
-	/*border: 15px solid #0097a7;*/
+	margin-bottom: 100px;
 	max-width: 1500px;
+	transition: transform 2s ease, opacity .5s ease-out;
 }
 
 .carousel-image {
 	height: 700px;
 	width: 1500px;
+        filter: brightness(65%);	
 }
 
+.overlay { 
+  color: white;
+  position:absolute;
+  z-index:12;
+  top: 35%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
+
+main-title {
+	color: white;
+	font-size: 90px;
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+}
+
+sub-title {
+	color: white;
+	font-size: 50px;
+	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+}
 
 .jumbotron-infobox {
         background-color: white;
 	margin-top: 20px;
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 	height: 1250px;
 	margin-left: 10%;
 	margin-right: 10%;

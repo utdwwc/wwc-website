@@ -8,6 +8,10 @@ export default class Home extends Component {
 	render() {
 		return (
 			<div>	
+			<div class="overlay">
+			<h6><main-title>Women Who Compute</main-title></h6>
+			<h3><sub-title>The University of Texas at Dallas</sub-title></h3>
+			</div>
 			<Carousel>
 			<Carousel.Item>
 			<img className="carousel-image" src="assets/wwc-mcafee.jpg" alt="First Slide" />
