@@ -76,30 +76,30 @@ export default class Home extends Component {
 			<Row className="show-grid text-center">
 			<Col xs={16} sm={4}>
 			<Card className="flyer-card">
-			<a href="/f19events/speed-mentoring" class="btn">
-                        <Card.Img src="assets/speed-mentoring-flyer.jpg" className="flyer" />
+			<a href="/s20events/fannie-mae-spring-resume-review" class="btn">
+                        <Card.Img src="assets/fannie-mae-flyer-2.jpg" className="flyer" />
                         <Card.Body>
-                        <Card.Title><card-title>Speed Mentoring</card-title></Card.Title>
+                        <Card.Title><card-title>Fannie Mae Panel</card-title></Card.Title>
                         </Card.Body>
 			</a>
                         </Card>
 			</Col>
 			<Col xs={16} sm={4}>
 			<Card className="flyer-card">
-			<a href="/f19events/intuit-coding-ws" class="btn">
-                        <Card.Img src="assets/intuit-coding-ws-flyer.jpg" className="flyer" />
+			<a href="/s20events/spring-intern-fair-ws" class="btn">
+                        <Card.Img src="assets/intern-fair-flyer.jpg" className="flyer" />
                         <Card.Body>
-			<Card.Title><card-title>Intuit Coding Workshop</card-title></Card.Title>
+			<Card.Title><card-title>Intern Fair Workshop</card-title></Card.Title>
 			</Card.Body>
 			</a>
 			</Card>
 			</Col>
                         <Col xs={16} sm={4}>
                         <Card className="flyer-card">
-			<a href="/f19events/r-ladies-tech-talk" class="btn">
-			<Card.Img src="assets/r-ladies-flyer.jpg" className="flyer" />
+			<a href="/s20events/spring-semester-kickoff" class="btn">
+			<Card.Img src="assets/spring-kickoff.jpg" className="flyer" />
 			<Card.Body>
-			<Card.Title><card-title>R Ladies Tech Talk</card-title></Card.Title>
+			<Card.Title><card-title>Spring Kickoff</card-title></Card.Title>
 			</Card.Body>
 			</a>
                         </Card>

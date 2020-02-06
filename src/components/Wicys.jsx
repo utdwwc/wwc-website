@@ -19,7 +19,7 @@ export default class Wicys extends Component {
 			</h2>
 			</Card.Body>
 			</Card>
-			<Card className="wicys-card">
+			<Card className="wicysconference-card">
 			<Card.Title>
 			<h6><wicys-heading>WiCyS Conference</wicys-heading></h6>
 			<hr></hr>
@@ -27,6 +27,23 @@ export default class Wicys extends Component {
 			<Card.Body>
 			<h2>
 			WiCyS hosts an annual conference in the spring to connect companies, students, and experienced leaders and professionals in the field of cybersecurity. It is a great opprunity for women in cybersecurity to network, share knowledge and expertise, and recieve mentorship.<br></br><br></br>
+			<Carousel className="carousel carousel-fade">
+                        <Carousel.Item>
+                        <img className="carousel-wicys-image" src="assets/wicys-4.jpg" alt="First Slide" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                        <img className ="carousel-wicys-image" src="assets/wicys-3.jpg" alt="Second Slide" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                        <img className="carousel-wicys-image" src="assets/wicys-6.jpg" alt="Third Slide" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                        <img className="carousel-wicys-image" src="assets/wicys-1.jpg" alt="Fourth Slide" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                        <img className="carousel-wicys-image" src="assets/wicys-5.jpg" alt="Fifth Slide" />
+                        </Carousel.Item>
+			</Carousel>
 For more information on the WiCys 2020 Conference, click <a href="https://www.wicys.org/conference" target="_blank"><strong><color-link>here</color-link></strong></a>!
 			</h2>
 			</Card.Body>

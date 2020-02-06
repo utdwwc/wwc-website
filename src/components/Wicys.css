@@ -6,15 +6,36 @@
 
 }
 
-.wicys-card {
-        width: 1200px;
+.carousel-wicys-image {
         height: 650px;
-        margin-bottom: 40px;
-	margin-left: 380px;
-        background-color: white;
-        border: solid black;
-	border-radius: 10px;
+        width: 1050px;
+	margin-top: 50px;
+	margin-left: 100px; 
+	border: solid black;
 	border-width: 2px;
+	border-radius: 10px;
+}
+
+.wicys-card {
+	width: 1300px;
+	height: 600px;
+	margin-bottom: 70px;
+	margin-left: 300px;
+	background-color: white;
+	/*border: solid black;
+	border-radius: 10px;
+	border-width: 2px;*/
+}
+
+.wicysconference-card {
+        width: 1300px;
+        height: 1270px;
+        margin-bottom: 70px;
+	margin-left: 300px;
+        background-color: white;
+        /*border: solid black;
+	border-radius: 10px;
+	border-width: 2px;*/
 }
 
 .wicys-logo-2 {
