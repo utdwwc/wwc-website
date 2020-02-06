@@ -10,6 +10,11 @@ export default class Wicys extends Component {
 			<Image className="wicyslogo-img" src="assets/wicys-transp.png" />
 			<h2><univ-sub>The University of Texas at Dallas</univ-sub></h2>
 			</Jumbotron>
+			<Jumbotron className="jumbotron-aboutwicys">
+			<h6>About Us</h6>
+			<hr></hr>
+			<h2>Women in Cybersecurity (WiCyS) is a community of <strong>engagement</strong>, <strong>encouragement</strong>, and <strong>support</strong> of women in cybersecurity. UTD WiCyS is a chapter of a national organization founded at UTD in 2019 as a subgroup of WWC in order to reach as many women as possible. Our chapter hopes to encourage women to pursue careers in the highly dynamic and expansive field of cybersecurity by offering tools, events, and networking opportunities throughout the academic year.</h2>
+			</Jumbotron>
 			<Jumbotron className="jumbotron-memberbox">
 			<h6>Membership</h6>
 			<hr></hr>

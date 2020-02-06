@@ -17,6 +17,15 @@
 	border-radius: 10px;
 }
 
+.jumbotron-aboutwicys {
+	background-color: white;
+	width: 1500px;
+	height: 500px;
+	margin-left: 10%;
+	margin-bottom: 70px;
+
+}
+
 .jumbotron-memberbox {
         background-color: white;
         margin-top: 20px;
@@ -29,7 +38,7 @@
 }
 
 .wicyslogo-img {
-	width: 630px;
+	width: 650px;
 	height: 400px;
 	margin-top: -60px;
 	margin-left: 570px;

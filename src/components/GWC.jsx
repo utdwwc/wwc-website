@@ -6,14 +6,15 @@ export default class GWC extends Component {
         render() {
                 return (
                         <div>
-			<Jumbotron className="jumbotron jumbotron-gwc">	
-			<Image src="assets/girls-who-code-logo.jpg" circle className="gwc-logo-2" />
+			<Jumbotron className="jumbotron jumbotron-gwc">
+			<Image className="gwclogo-img" src="assets/gwc-transp.png" />
+                        <h2><univ-sub>The University of Texas at Dallas</univ-sub></h2>
 			</Jumbotron>
 			<Jumbotron className="jumbotron jumbotron-gwcabout">
 			<h6><wicys-heading>About Us</wicys-heading></h6>
 			<hr></hr>
 			<h2>
-			Girls Who Code is an international non-profit organization working to close the gender gap in technology and lead the movement to inspire, educate and equip young women with the computing skills needed to pursue 21<sup>st</sup> century opportunities. Since launching in the United States in 2012, Girls Who Code has reached 185,000 girls through its programs (clubs, campuses, summer immersion programs, College Loops) and over 100 million people through campaigns, advocacy work, and New York Times best-selling series!
+			Girls Who Code is an international non-profit organization working to close the gender gap in technology and lead the movement to <strong>inspire</strong>, <strong>educate</strong> and <strong>equip</strong> young women with the computing skills needed to pursue 21<sup>st</sup> century opportunities. Since launching in the United States in 2012, Girls Who Code has reached 185,000 girls through its programs (clubs, campuses, summer immersion programs, College Loops) and over 100 million people through campaigns, advocacy work, and New York Times best-selling series!
 			</h2>
 			</Jumbotron>
 			<Jumbotron className="jumbotron jumbotron-gwccollegeloops">
