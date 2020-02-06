@@ -7,26 +7,14 @@ export default class Wicys extends Component {
                 return (
                         <div>
 			<Jumbotron className="jumbotron jumbotron-wicys1">
+			<Image className="wicyslogo-img" src="assets/wicys-transp.png" />
+			<h2><univ-sub>The University of Texas at Dallas</univ-sub></h2>
 			</Jumbotron>
-			<Card className="wicys-card">
-			<Card.Title>
-			<h6><wicys-heading>Membership</wicys-heading></h6>
+			<Jumbotron className="jumbotron-memberbox">
+			<h6>Membership</h6>
 			<hr></hr>
-			</Card.Title>
-			<Card.Body>
 			<h2>
-		Since UTD WiCyS is a national chapter, a membership fee is required to become an official member of this organization. However, anyone and everyone is welcome to take part in events hosted by WiCyS without official membership! By obtaining national membership, official WiCyS members recieve added benefits, including the ability to post resumes to the WiCyS Job Board, discounts on the WiCyS Conference attendance, engagement through Market Studies, and access to extensive networking resources, and membership to the WiCyS Affiliate Program.<br></br><br></br>For more information on WiCyS membership click <a href="https://www.wicys.org/join" target="_blank"><strong><color-link>here</color-link></strong></a>!
-			</h2>
-			</Card.Body>
-			</Card>
-			<Card className="wicysconference-card">
-			<Card.Title>
-			<h6><wicys-heading>WiCyS Conference</wicys-heading></h6>
-			<hr></hr>
-			</Card.Title>
-			<Card.Body>
-			<h2>
-			WiCyS hosts an annual conference in the spring to connect companies, students, and experienced leaders and professionals in the field of cybersecurity. It is a great opprunity for women in cybersecurity to network, share knowledge and expertise, and recieve mentorship.<br></br><br></br>
+		Since UTD WiCyS is a national chapter, a membership fee is required to become an official member of this organization. However, anyone and everyone is welcome to take part in events hosted by WiCyS without official membership! By obtaining national membership, official WiCyS members recieve added benefits, including the ability to post resumes to the WiCyS Job Board, discounts on the WiCyS Conference attendance, engagement through Market Studies, and access to extensive networking resources, and membership to the WiCyS Affiliate Program.<br></br><br></br>
 			<Carousel className="carousel carousel-fade">
                         <Carousel.Item>
                         <img className="carousel-wicys-image" src="assets/wicys-4.jpg" alt="First Slide" />
@@ -43,41 +31,60 @@ export default class Wicys extends Component {
                         <Carousel.Item>
                         <img className="carousel-wicys-image" src="assets/wicys-5.jpg" alt="Fifth Slide" />
                         </Carousel.Item>
-			</Carousel>
+                        </Carousel>
+			For more information on WiCyS membership click <a href="https://www.wicys.org/join" target="_blank"><strong><color-link>here</color-link></strong></a>!
+			</h2>
+			</Jumbotron>
+			<Jumbotron className="jumbotron-conferencebox">
+			<h6>WiCyS Conference</h6>
+			<hr></hr>
+			<h2>
+			WiCyS hosts an annual conference in the spring to connect companies, students, and experienced leaders and professionals in the field of cybersecurity. It is a great opprunity for women in cybersecurity to network, share knowledge and expertise, and recieve mentorship.
+			<Image className="wicysconference-img" src="assets/wicys-conference.png" /><br></br><br></br>
 For more information on the WiCys 2020 Conference, click <a href="https://www.wicys.org/conference" target="_blank"><strong><color-link>here</color-link></strong></a>!
 			</h2>
-			</Card.Body>
-			</Card>
-			<Card className="wicys-card">
-			<Card.Title>
-			<h6><wicys-heading>Additional Resources</wicys-heading></h6>
+			</Jumbotron>
+			<Jumbotron className="jumbotron-resourcebox">
+			<h6>Resources</h6>
 			<hr></hr>
-			</Card.Title>
-			{/*<Card.Body>
+			<h2>
+			WiCyS provides an extensive collection of resources for learning and teaching cybersecurity! Additional resources such as cybersecurity readings, free online learning, cybersecurity certifications can be found directly on the official WiCyS website.
+			</h2>
+			<Card.Body>
+			<Jumbotron className="jumbotron-box">
 			<Row className="show-grid align-items-center">
 			<Col xs={12} sm={5}>
-			<Card className="goals-card">
-			<a class="btn btn-link" href="https://www.wicys.org/" target="_blank">Official Website</a>
+			<a class="btn" href="https://www.wicys.org/" target="_blank">
+			<Card className="resource-card">
+			<Card.Body><h2>WiCyS Website</h2></Card.Body>
 			</Card>
+			</a>
 			</Col>
 			<Col xs={12} sm={5}>
-			<Card className="goals-card">
-			<a class="btn btn-link" href="https://teachcyber.tk/" target="_blank">TeachCyber</a>
+			<a class="btn" href="https://teachcyber.tk/" target="_blank">
+			<Card className="resource-card">
+			<Card.Body><h2>TeachCyber</h2></Card.Body>
 			</Card>
+			</a>
 			</Col>
 			<Col xs={12} sm={5}>
-			<Card className="goals-card">
-			<a class="btn btn-link" href="https://www.hackthebox.eu/" target="_blank">Hack the Box</a>
+			<a class="btn" href="https://www.hackthebox.eu/" target="_blank">
+			<Card className="resource-card">
+			<Card.Body><h2>Hack the Box</h2></Card.Body>
 			</Card>
+			</a>
 			</Col>
-			<Col className="goals-card">
-			<Card>
-			<a href="https://ctftime.org/ctf-wtf/" target="_blank" class="btn btn-link">Capture the Flag</a>
+			<Col xs={12} sm={5}>
+			<a class="btn" href="https://ctftime.org/ctf-wtf/" target="_blank">
+			<Card className="resource-card">
+			<Card.Body><h2>Capture the Flag</h2></Card.Body>
 			</Card>
+			</a>
 			</Col>
-			</Row> 
-			</Card.Body>*/}
-			</Card>
+			</Row>
+			</Jumbotron>
+			</Card.Body>
+			</Jumbotron>
 			<div class="footer">
                         <div class="container text-center">
                         <Row>

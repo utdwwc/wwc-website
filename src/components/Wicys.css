@@ -1,6 +1,7 @@
 .jumbotron-wicys1 {
-	background: #000 url('wicys-4.jpg') no-repeat center center;
-        background-size: cover;
+	/*background: #000 url('wicys-4.jpg') no-repeat center center;*/
+        background-color: #bddce1;
+	background-size: cover;
         margin-bottom: 80px;
         height: 500px;
 
@@ -8,34 +9,91 @@
 
 .carousel-wicys-image {
         height: 650px;
-        width: 1050px;
-	margin-top: 50px;
-	margin-left: 100px; 
+        width: 1100px;
+	margin-top: 30px;
+	margin-left: 170px;
 	border: solid black;
 	border-width: 2px;
 	border-radius: 10px;
 }
 
+.jumbotron-memberbox {
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        width: 1500px;
+        height: 1390px;
+        margin-left: 10%;
+        margin-right: 10%;
+
+}
+
+.wicyslogo-img {
+	width: 630px;
+	height: 400px;
+	margin-top: -60px;
+	margin-left: 570px;
+}
+
+.wicysconference-img {
+	width: 550px;
+	height: 450px;
+	margin-left: 430px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.jumbotron-conferencebox {
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        width: 1500px;
+        height: 1030px;
+        margin-left: 10%;
+        margin-right: 10%;
+
+}
+
+.jumbotron-resourcebox {
+        background-color: white;
+        margin-top: 20px;
+        width: 1500px;
+        height: 950px;
+        margin-left: 10%;
+        margin-right: 10%;
+	margin-bottom: 100px;
+
+}
+
+.jumbotron-box {
+        background-color: #0097a7;
+        width: 1000px;
+        height: 400px;
+        margin-left: 200px;
+	margin-top: 50px;
+        margin-bottom: 130px;
+	border: solid black;
+	border-radius: 10px;
+	border-width: 2px;
+	box-shadow: 10px 10px #A4A9AD;
+
+
+}
+
 .wicys-card {
-	width: 1300px;
+	width: 1500px;
 	height: 600px;
 	margin-bottom: 70px;
-	margin-left: 300px;
+	margin-left: 200px;
 	background-color: white;
-	/*border: solid black;
-	border-radius: 10px;
-	border-width: 2px;*/
 }
 
 .wicysconference-card {
-        width: 1300px;
+        width: 1500px;
         height: 1270px;
         margin-bottom: 70px;
-	margin-left: 300px;
+	margin-left: 200px;
         background-color: white;
-        /*border: solid black;
-	border-radius: 10px;
-	border-width: 2px;*/
 }
 
 .wicys-logo-2 {
@@ -45,6 +103,21 @@
         width: 500px;
         height: 350px;
 	
+}
+
+.resource-card {
+        width: 300px;
+        height: 100px;
+        margin-bottom: 70px;
+        margin-left: 100px;
+        border: solid black;
+        border-width: 2px;
+        border-radius: 10px;
+}
+
+.resource-card:hover {
+        background-color: #bddce1;
+        transition: background 0.6s ease;
 }
 
 .btn-link {
@@ -70,4 +143,11 @@ link-text {
 
 color-link {
 	color: #2B2D42;
+}
+
+univ-sub {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	margin-left: 600px;
 }

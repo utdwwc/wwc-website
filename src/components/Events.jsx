@@ -12,18 +12,32 @@ export default class Events extends Component {
 			<Row className="show-grid text-center">
 			<Col xs={12} sm={4}>
 			<Card className="event-card">
-			<a href="/s20events/spring-semester-kickoff" class="btn">
-			<Card.Title><h3><event-title>Spring Kickoff</event-title></h3></Card.Title>
-			<Card.Img src="assets/spring-kickoff.jpg" className="event-flyer" />
+			<a href="/events" class="btn">
+			<Card.Title><h3><event-title>JDA Tech Talk</event-title></h3></Card.Title>
+			<Card.Img src="assets/jda-software-talk.jpg" className="event-flyer" />
 			<Card.Body>
 			<Card.Text>
-			<event-date>January 29th, 2020</event-date><br></br>
-			<event-date>The Blackstone Launchpad</event-date>
+			<event-date>February 12th, 2020</event-date><br></br>
+			<event-date>TI Auditorium</event-date>
 			</Card.Text>
 			</Card.Body>
 			</a>
 			</Card>
 			</Col>
+			<Col xs={12} sm={4}>
+                        <Card className="event-card">
+                        <a href="/s20events/fannie-mae-spring-resume-review" class="btn">
+                        <Card.Title><h3><event-title>Fannie Mae Panel</event-title></h3></Card.Title>
+                        <Card.Img src="assets/fannie-mae-flyer-2.jpg" className="event-flyer" />
+                        <Card.Body>
+                        <Card.Text>
+                        <event-date>February 6th, 2020</event-date><br></br>
+                        <event-date>TI Auditorium</event-date>
+                        </Card.Text>
+                        </Card.Body>
+                        </a>
+                        </Card>
+                        </Col>
 			<Col xs={12} sm={4}>
                         <Card className="event-card">
                         <a href="/s20events/spring-intern-fair-ws" class="btn">
@@ -37,16 +51,16 @@ export default class Events extends Component {
                         </Card.Body>
                         </a>
                         </Card>
-                        </Col>
+			</Col>
 			<Col xs={12} sm={4}>
-                        <Card className="event-card">
-                        <a href="/s20events/fannie-mae-spring-resume-review" class="btn">
-                        <Card.Title><h3><event-title>Fannie Mae Panel</event-title></h3></Card.Title>
-                        <Card.Img src="assets/fannie-mae-flyer-2.jpg" className="event-flyer" />
+			<Card className="event-card">
+                        <a href="/s20events/spring-semester-kickoff" class="btn">
+                        <Card.Title><h3><event-title>Spring Kickoff</event-title></h3></Card.Title>
+                        <Card.Img src="assets/spring-kickoff.jpg" className="event-flyer" />
                         <Card.Body>
                         <Card.Text>
-                        <event-date>February 6th, 2020</event-date><br></br>
-                        <event-date>TI Auditorium</event-date>
+                        <event-date>January 29th, 2020</event-date><br></br>
+                        <event-date>The Blackstone Launchpad</event-date>
                         </Card.Text>
                         </Card.Body>
                         </a>
