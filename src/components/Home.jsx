@@ -13,7 +13,7 @@ export default class Home extends Component {
 			<h3><sub-title>The University of Texas at Dallas</sub-title></h3>
 			<a href="#who-we-are" class="fa fa-arrow-circle-down" aria-hidden="true"></a>
 			</div>
-			<Carousel>
+			<Carousel className="carousel carousel-fade">
 			<Carousel.Item>
 			<img className="carousel-image" src="assets/wwc-mcafee.jpg" alt="First Slide" />
 			</Carousel.Item>
@@ -37,28 +37,28 @@ export default class Home extends Component {
 			Women Who Compute is a community for women pursuing careers in engineering and computer science at The University of Texas at Dallas. We aim to provide opportunities for mentorship, personal and professional development, and social bonding with women of paralleled interests in computing.<br></br><br></br>
 			Representing <strong>one of the largest women-advocating organizations on campus</strong>, Women Who Compute strives to:<br></br><br></br>
 			<Row className="show-grid align-items-center">
-			<Col>
+			<Col xs={12} sm={5}>
 			<Card className="goals-card">
 			<Card.Body>
 			<ol>Cultivate a <strong>community</strong> of female engineering and computer science students at the University of Texas at Dallas.</ol>
 			</Card.Body>
 			</Card>
 			</Col>
-			<Col>
+			<Col xs={12} sm={5}>
 			<Card className="goals-card">
 			<Card.Body>
-			<ol>Provide <strong>mentorship</strong> and <strong>support</strong> to women in computing.</ol>
+			<ol>Provide <strong>mentorship</strong> and <strong>support</strong> to women in computing to give them confidence to pursue a career of their interests.</ol>
 			</Card.Body>
 			</Card>
 			</Col>
-			<Col>
+			<Col xs={12} sm={5}>
 			<Card className="goals-card">
 			<Card.Body>
-			<ol>Provide personal and professional <strong>development</strong>.</ol>
+			<ol>Provide personal and professional <strong>development</strong> to prepare for the opportunities in the field of engineering and computer science.</ol>
 			</Card.Body>
 			</Card>
 			</Col>
-			<Col>
+			<Col xs={12} sm={5}>
 			<Card className="goals-card">
 			<Card.Body>
 			<ol><strong>Encourage women</strong> to pursue a career in the fields of engineering and computer science.</ol><br></br>
@@ -114,14 +114,14 @@ export default class Home extends Component {
 			<h2>To reach out to as many members as possible, Women Who Compute has partnered with the following organizations to represent their national chapters at UT Dallas. 
 			</h2>
 			<Row>
-			<Col xs={12} sm={6} className="person-wrapper">
+			<Col xs={12} sm={5} className="person-wrapper">
 			<Card className="logo-card">
 			<a href="/wicys" class="btn">
 			<Card.Img src="assets/wicys-logo.jpg" className="wicys-logo" />
 			</a>
 			</Card>
 			</Col>
-			<Col xs={12} sm={6} className="person-wrapper">
+			<Col xs={12} sm={5} className="person-wrapper">
 			<Card className="logo-card">
 			<a href="/girls-who-code" class="btn">
 			<Card.Img src="assets/girls-who-code-logo.jpg" className="gwc-logo" />

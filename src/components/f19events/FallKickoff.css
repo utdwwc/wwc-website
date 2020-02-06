@@ -26,6 +26,15 @@
 
 }
 
+.fkickoff-info-card {
+        width: 770px;
+        height: 410px;
+        margin-top: 320px;
+        border-color: black;
+        border-width: 2px;
+        border-radius: 10px;
+}
+
 event-info {
 	position: relative;
 	top: 320px;

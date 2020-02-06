@@ -26,6 +26,15 @@
 
 }
 
+.rladies-info-card {
+        width: 770px;
+        height: 770px;
+        margin-top: 145px;
+        border-color: black;
+        border-width: 2px;
+        border-radius: 10px;
+}
+
 event-info {
 	position: relative;
 	top: 320px;

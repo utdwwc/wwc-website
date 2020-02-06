@@ -26,6 +26,15 @@
 
 }
 
+.fanniemae-info-card {
+        width: 770px;
+        height: 570px;
+        margin-top: 200px;
+        border-color: black;
+        border-width: 2px;
+        border-radius: 10px;
+}
+
 event-info {
 	position: relative;
 	top: 320px;

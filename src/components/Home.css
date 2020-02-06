@@ -5,6 +5,43 @@
 	transition: transform 2s ease, opacity .5s ease-out;
 }
 
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+.right.carousel-control, .left.carousel-control {
+	display: none;
+}
+
 .carousel-image {
 	height: 873px;
 	width: 2100px;
@@ -55,6 +92,7 @@ html {
         background-color: white;
 	margin-top: 20px;
 	margin-bottom: 100px;
+	width: 1500px;
 	height: 1250px;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -84,7 +122,7 @@ html {
 	width: 500px;
 	height: 230px;
 	margin-bottom: 70px;
-	margin-left: 90px;
+	margin-left: 160px;
 	border: solid black;
 	border-width: 2px;
 	border-radius: 10px;
@@ -157,7 +195,7 @@ hr {
 	border-radius: 10px;
 	border-width: 2px;
 	box-shadow: 5px 10px #A4A9AD;
-	margin-left: 180px;
+	margin-left: 220px;
 	width: 400px;
 	height: 300px;
 }

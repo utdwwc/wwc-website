@@ -7,6 +7,53 @@ export default class Events extends Component {
 	render() {
 		return (
 			<div>
+			<h6><semester>Spring 2020</semester></h6><br></br>
+			<Container>
+			<Row className="show-grid text-center">
+			<Col xs={12} sm={4}>
+			<Card className="event-card">
+			<a href="/s20events/spring-semester-kickoff" class="btn">
+			<Card.Title><h3><event-title>Spring Kickoff</event-title></h3></Card.Title>
+			<Card.Img src="assets/spring-kickoff.jpg" className="event-flyer" />
+			<Card.Body>
+			<Card.Text>
+			<event-date>January 29th, 2020</event-date><br></br>
+			<event-date>The Blackstone Launchpad</event-date>
+			</Card.Text>
+			</Card.Body>
+			</a>
+			</Card>
+			</Col>
+			<Col xs={12} sm={4}>
+                        <Card className="event-card">
+                        <a href="/s20events/spring-intern-fair-ws" class="btn">
+                        <Card.Title><h3><event-title>Intern Fair WS</event-title></h3></Card.Title>
+                        <Card.Img src="assets/intern-fair-flyer.jpg" className="event-flyer" />
+                        <Card.Body>
+                        <Card.Text>
+                        <event-date>February 5th, 2020</event-date><br></br>
+                        <event-date>SLC 1.102</event-date>
+                        </Card.Text>
+                        </Card.Body>
+                        </a>
+                        </Card>
+                        </Col>
+			<Col xs={12} sm={4}>
+                        <Card className="event-card">
+                        <a href="/s20events/fannie-mae-spring-resume-review" class="btn">
+                        <Card.Title><h3><event-title>Fannie Mae Panel</event-title></h3></Card.Title>
+                        <Card.Img src="assets/fannie-mae-flyer-2.jpg" className="event-flyer" />
+                        <Card.Body>
+                        <Card.Text>
+                        <event-date>February 6th, 2020</event-date><br></br>
+                        <event-date>TI Auditorium</event-date>
+                        </Card.Text>
+                        </Card.Body>
+                        </a>
+                        </Card>
+                        </Col>
+			</Row>
+			</Container>
 			<h6><semester>Fall 2019</semester></h6><br></br>
 			<Container>
                         <Row className="show-grid text-center">
@@ -68,7 +115,7 @@ export default class Events extends Component {
                         </Col>
 			<Col xs={12} sm={4}>
                         <Card className="event-card">
-                        <a href="/f19events/at&t-cybersecurity-panel" class="btn">
+                        <a href="/f19events/post-ghc-panel" class="btn">
                         <Card.Title><h3><event-title>Post-GHC Panel</event-title></h3></Card.Title>
                         <Card.Img src="assets/ghc-flyer.jpg" className="event-flyer" />
                         <Card.Body>

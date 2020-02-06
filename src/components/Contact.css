@@ -1,0 +1,46 @@
+.jumbotron-contact {
+        background: #000 url('wwc-members.jpg') no-repeat center center;
+        background-size: cover;
+        opacity: 0.8;
+        min-height: 100px;
+        max-height: 520px;
+        margin-bottom: 70px;
+        color: white;
+}
+
+.form-card {
+	margin-left: 450px;
+	margin-bottom: 100px;
+	width: 1000px;
+	height: 1200px;
+	/*background-color: #A0D2DB;*/
+	 border: solid black;
+        border-width: 2px;
+        border-radius: 10px;
+        box-shadow: 5px 5px #A4A9AD;
+
+}
+
+.form-content-card {
+	width: 500px;
+	margin-left: 250px;
+	border: none;
+	/*background-color: #A0D2DB;*/
+}
+
+form-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+
+}
+
+form-subtitle {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 27px;
+	font-weight: 600;
+}
+
+radio-text {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
