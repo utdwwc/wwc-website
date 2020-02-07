@@ -18,9 +18,9 @@
 }
 
 .faq-card {
-	width: 1300px;
+	width: 1500px;
 	height: 200px;
-	margin-left: 300px;
+	margin: 0 auto;
 	margin-bottom: 40px;
 	background-color: white;
         border: solid black;

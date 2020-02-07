@@ -15,7 +15,7 @@ export default class Home extends Component {
 			</div>
 			<Carousel className="carousel carousel-fade">
 			<Carousel.Item>
-			<img className="carousel-image" src="assets/wwc-mcafee.jpg" alt="First Slide" />
+			<img className="carousel-image" src="assets/wwc-sm.jpg" alt="First Slide" />
 			</Carousel.Item>
                         <Carousel.Item>
 			<img className ="carousel-image" src="assets/wwc-cbre.jpg" alt="Second Slide" />
@@ -27,7 +27,7 @@ export default class Home extends Component {
 			<img className="carousel-image" src="assets/wwc-intuit.jpg" alt="Fourth Slide" />
 			</Carousel.Item>
 			<Carousel.Item>
-			<img className="carousel-image" src="assets/wwc-sm.jpg" alt="Fifth Slide" />
+			<img className="carousel-image" src="assets/wwc-mcafee.jpg" alt="Fifth Slide" />
 			</Carousel.Item>
 			</Carousel>
 			<div id="who-we-are"><a href="who-we-are"></a><Jumbotron className="jumbotron-infobox">

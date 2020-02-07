@@ -9,7 +9,6 @@ export default class Membership extends Component {
 			<Jumbotron className="jumbotron jumbotron-membership">
 			<h5>FAQs</h5><br></br>
 			</Jumbotron>
-		        <h2>
 			<Card className="faq-card">
 			<Card.Body>
                         <question>How do I become a member of Women Who Compute?</question><br></br><br></br>
@@ -39,10 +38,9 @@ export default class Membership extends Component {
 			<question>How do I stay updated with WWC events?</question><br></br><br></br>
 			<answer>To stay updated with Women Who Compute, you can join our mailing list and/or follow us on social media! We constantly provide updates on these platforms to keep members in the loop of upcoming events.</answer>
                         </Card.Body>
-			</Card>
-			</h2>
 			<br></br><br></br><br></br>
-                        <div class="footer">
+                        </Card>
+			<div class="footer">
                         <div class="container text-center">
                         <Row>
                         <Col xs={12} sm={4} className="footer-wrapper">

@@ -8,15 +8,24 @@
 
 .jumbotron-gwcabout {
 	width: 1500px;
-	height: 520px;
+	height: 950px;
 	background-color: white;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 150px;
 }
 
+.gwc-gender-gap {
+	width: 700px;
+	height: 400px;
+	margin-top: 30px;
+	margin-left: 350px;
+}
+
 .jumbotron-gwccollegeloops {
         background-color: white;
+	width: 1500px;
+	height: 850px;
         margin-left: 10%;
 	margin-right: 10%;
 	margin-top: -70px;
@@ -28,7 +37,7 @@
         margin-left: 10%;
 	margin-right: 10%;
 	margin-top: -70px;
-        margin-bottom: 100px;
+        margin-bottom: 150px;
 }
 
 .gwclogo-img {
@@ -58,6 +67,12 @@
 
 .btn-link:hover {
 	color: grey;
+}
+
+.gwccollegeloops-img {
+	width: 550px;
+	height: 400px;
+	margin-left: 450px;
 }
 
 wicys-heading {

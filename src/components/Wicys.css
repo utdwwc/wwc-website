@@ -21,6 +21,7 @@
 	background-color: white;
 	width: 1500px;
 	height: 500px;
+	margin: 0 auto;
 	margin-left: 10%;
 	margin-bottom: 70px;
 
@@ -59,7 +60,7 @@
         width: 1500px;
         height: 1030px;
         margin-left: 10%;
-        margin-right: 10%;
+	margin-right: 10%;
 
 }
 

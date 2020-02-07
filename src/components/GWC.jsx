@@ -11,25 +11,26 @@ export default class GWC extends Component {
                         <h2><univ-sub>The University of Texas at Dallas</univ-sub></h2>
 			</Jumbotron>
 			<Jumbotron className="jumbotron jumbotron-gwcabout">
-			<h6><wicys-heading>About Us</wicys-heading></h6>
+			<h6>About Us</h6>
 			<hr></hr>
 			<h2>
 			Girls Who Code is an international non-profit organization working to close the gender gap in technology and lead the movement to <strong>inspire</strong>, <strong>educate</strong> and <strong>equip</strong> young women with the computing skills needed to pursue 21<sup>st</sup> century opportunities. Since launching in the United States in 2012, Girls Who Code has reached 185,000 girls through its programs (clubs, campuses, summer immersion programs, College Loops) and over 100 million people through campaigns, advocacy work, and New York Times best-selling series!
 			</h2>
-			</Jumbotron>
-			<Jumbotron className="jumbotron jumbotron-gwccollegeloops">
-			<h6><wicys-heading>College Loops</wicys-heading></h6>
-			<hr></hr>
-			<h2>
-			College Loops are on-campus organizations that serve as the main point of contact for Girls Who Code. They offer monthly challenges focusing on cultivating computer science skills and engaging women to take action, collaborate, and innovate. Women Who Compute became the official College Loop for UT Dallas in 2019, and is currently working on integrating more events for members to network within the Girls Who Code community! 
-			</h2>
+			<Image className="gwc-gender-gap" src="assets/gwc-gender-gap.jpg" />
 			</Jumbotron>
 			<Jumbotron className="jumbotron jumbotron-gwcmembership">
-			<h6><wicys-heading>Membership</wicys-heading></h6>
+                        <h6>Membership</h6>
+                        <hr></hr>
+                        <h2>
+                        Since there is no official membership process to Girls Who Code, anyone who is female or identifies as non-binary may participate in any activites and/or meetings hosted by Girls Who Code. The benefits ofattending events include the opportunity to navigate the HQ, a website for Girls Who Code members to recieve extensive resources to prepare them for a field in computing! To recieve access to HQ, refer to any Women Who Compute officer at a Girls Who Code meeting- they can help you create a HQ account and navigate through the resources that will help you prepare for a career in technology!
+                        </h2>
+                        </Jumbotron>
+			<Jumbotron className="jumbotron jumbotron-gwccollegeloops">
+			<h6>College Loops</h6>
 			<hr></hr>
 			<h2>
-			Since there is no official membership process to Girls Who Code, anyone who is female or identifies as non-binary may participate in any activites and/or meetings hosted by Girls Who Code. The benefits ofattending events include the opportunity to navigate the HQ, a website for Girls Who Code members to recieve extensive resources to prepare them for a field in computing! To recieve access to HQ, refer to any Women Who Compute officer at a Girls Who Code meeting- they can help you create a HQ account and navigate through the resources that will help you prepare for a career in technology!
-			</h2>
+			College Loops are on-campus organizations that serve as the main point of contact for Girls Who Code. They offer monthly challenges focusing on cultivating computer science skills and engaging women to take action, collaborate, and innovate. Women Who Compute became the official College Loop for UT Dallas in 2019, and is currently working on integrating more events for members to network within the Girls Who Code community!</h2> 
+			<Image className="gwccollegeloops-img" src="assets/gwc-college-loops.png" />
 			</Jumbotron>
 			<div class="footer">
                         <div class="container text-center">
