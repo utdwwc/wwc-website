@@ -138,6 +138,9 @@ export default class Officers extends Component {
                         <Card.Text>
                         <h3>Karen<br></br>Mazidi</h3>
                         <h4>Faculty Sponsor</h4>
+			<ul class="social-icons">
+			<a href="https://personal.utdallas.edu/~kjm160430/" target="_blank" class="fa fa-link" ></a>
+			</ul>
                         </Card.Text>
                         </Card.Body>
                         </Card>

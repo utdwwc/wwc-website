@@ -76,6 +76,9 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	zoom: 0.9;
+}
 .fa-arrow-circle-down {
 	margin-top: 10px;
         font-size: 85px;

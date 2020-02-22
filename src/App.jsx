@@ -7,7 +7,6 @@ import Officers from './components/Officers';
 import Membership from './components/Membership';
 import Wicys from './components/Wicys';
 import GWC from './components/GWC';
-import Contact from './components/Contact';
 import SpeedMentoring from './components/f19events/SpeedMentoring';
 import IntuitCoding from './components/f19events/IntuitCoding';
 import RLadies from './components/f19events/RLadies';
@@ -35,7 +34,6 @@ class App extends Component {
 			<Route path="/membership-faqs" component={Membership} />
 			<Route path="/wicys" component={Wicys} />
 			<Route path="/girls-who-code" component={GWC} />
-			<Route path="/contact" component={Contact} />
 			<Route path="/f19events/speed-mentoring" component={SpeedMentoring} />
 			<Route path="/f19events/intuit-coding-ws" component={IntuitCoding} />
 			<Route path="/f19events/r-ladies-tech-talk" component={RLadies} />

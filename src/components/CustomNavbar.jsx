@@ -16,7 +16,6 @@ export default class CustomNavbar extends Component {
         <NavDropdown.Item href="/wicys"><nav-tab>WiCyS</nav-tab></NavDropdown.Item>
         <NavDropdown.Item href="/girls-who-code"><nav-tab>Girls Who Code</nav-tab></NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="/contact"><nav-tab>CONTACT</nav-tab></Nav.Link>
     </Nav>
     <Nav className="ml-auto">
       <a href="https://facebook.com/groups/utdwwc" target="_blank" class="fa fa-facebook-square"></a>
