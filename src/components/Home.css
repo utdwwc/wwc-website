@@ -1,40 +1,29 @@
 .carousel {
 	margin-top: 0px;
 	margin-bottom: 100px;
-	max-width: 2100px;
+	max-width: 2200px;
 	transition: transform 2s ease, opacity .5s ease-out;
 }
 
-.carousel-fade {
-    .carousel-inner {
-        .item {
-            transition-property: opacity;
-        }
-        
-        .item,
-        .active.left,
-        .active.right {
-            opacity: 0;
-        }
+.carousel-fade , .carousel-control {
+    z-index: 2;
+}
 
-        .active,
-        .next.left,
-        .prev.right {
-            opacity: 1;
-        }
+.carousel-fade , .carousel-inner , .item{
+	transition-property: opacity;
+}
 
-        .next,
-        .prev,
-        .active.left,
-        .active.right {
-            left: 0;
-            transform: translate3d(0, 0, 0);
-        }
-    }
+.carousel-fade , .carousel-inner , .item, .active.left, .active.right{
+	opacity: 0;	
+}
 
-    .carousel-control {
-        z-index: 2;
-    }
+.carousel-fade , .carousel-inner , .active, .next.left, .prev.right {
+	opacity: 1;
+}
+
+.carousel-fade , .carousel-inner , .next, .prev, .active.left, .active.right {
+	left: 0;
+	transform: translate3d(0, 0, 0);
 }
 
 
@@ -44,8 +33,8 @@
 
 .carousel-image {
 	height: 873px;
-	width: 2100px;
-        filter: brightness(65%);	
+	width: 2200px;
+    filter: brightness(65%);	
 }
 
 .overlay { 
@@ -92,21 +81,17 @@ body {
 }
 
 .jumbotron-infobox {
-        background-color: white;
+    background-color: white;
 	margin-top: 20px;
 	margin-bottom: 100px;
-	width: 1500px;
-	height: 1250px;
 	margin-left: 10%;
 	margin-right: 10%;
-
 }
 
 .jumbotron-eventbox {
         background-color: white;
         margin-top: 20px;
         margin-bottom: 100px;
-        height: 970px;
         margin-left: 10%;
         margin-right: 10%;
 
@@ -114,21 +99,17 @@ body {
 
 .jumbotron-flyerbox {
 	background-color: #0097a7;
-	width: 1200px;
-	height: 670px;
-	margin-left: 130px;
-	margin-bottom: 130px;
-
 }
 
 .goals-card {
-	width: 500px;
-	height: 230px;
-	margin-bottom: 70px;
-	margin-left: 160px;
+	width: fit-content;
+	height: fit-content;
+	margin-top: 10%;
+	margin-bottom: 10%;
 	border: solid black;
 	border-width: 2px;
 	border-radius: 10px;
+	
 }
 
 .goals-card:hover {
@@ -141,19 +122,16 @@ body {
 	margin-bottom: 100px;
 	margin-left: 10%;
 	margin-right: 10%;
-	height: 780px;
 }
 
 .wicys-logo {
         margin-top: 40px;
 	margin-bottom: 30px;
-        width: 100%;
 }
 
 .gwc-logo {
 	margin-top: 60px;
 	margin-bottom: 30px;
-	width: 100%;
 }
 
 .footer-logo {
@@ -183,6 +161,8 @@ hr {
 
 .flyer-card {
 	background-color: #bddce1;
+	width: fit-content;
+	margin: auto;
 }
 
 .flyer-card:hover {
@@ -192,15 +172,15 @@ hr {
 
 
 .logo-card {
-	margin-top: 50px;
 	background-color: white;
 	border: solid black;
+	width: 70%;
+	margin: auto;
+	margin-top: 10%;
 	border-radius: 10px;
 	border-width: 2px;
 	box-shadow: 5px 10px #A4A9AD;
-	margin-left: 220px;
-	width: 400px;
-	height: 300px;
+
 }
 
 
@@ -222,12 +202,13 @@ card-title {
 
 
 .btn-default {
-        background-image: none;
-        margin-top: -20px;
-	margin-left: 508px;
+    background-image: none;
 	width: 130px;
 	height: 50px;
-        border: solid #BDDCE1;
+	display: block;
+	margin: auto;
+	margin-top: 5%;
+    border: solid #BDDCE1;
 	border-radius: 10%;
 	color: black;
 	font-size: 20px;
@@ -241,7 +222,6 @@ card-title {
 }
 
 .footer {
-	height: 400px;
 	background-color: #0097a7;
 	color: white;
 	font-size: 15px;
@@ -293,8 +273,8 @@ ft-head {
 }
 
 h2 {
-        left: 150px;
-        font-size: 30px;
+    left: 150px;
+    font-size: 30px;
 	color: black;
 	font-family: 'Raleway', sans-serif;
 }
@@ -311,4 +291,6 @@ h6 {
 body {
 	background-color: #EFEFEF;
 }
+
+
 

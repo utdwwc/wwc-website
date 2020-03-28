@@ -120,17 +120,6 @@ export default class Officers extends Component {
                         </Card.Body>
                         </Card>
                         </Col>
-			<Col xs={12} sm={4}>
-                        <Card className="officer-card">
-                        <Card.Img src="assets/courtney-schaller.jpg" className="profile-pic" />
-                        <Card.Body>
-                        <Card.Text>
-                        <h3>Courtney<br></br>Schaller</h3>
-                        <h4>Outreach Coordinator</h4>
-                        </Card.Text>
-                        </Card.Body>
-                        </Card>
-                        </Col>
                         <Col xs={12} sm={4}>
                         <Card className="officer-card">
                         <Card.Img src="assets/karen-mazidi.jpg" className="profile-pic" />

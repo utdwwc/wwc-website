@@ -7,8 +7,21 @@ export default class Events extends Component {
 	render() {
 		return (
 			<div>
-			<h6><semester>Spring 2020</semester></h6><br></br>
-			<Container>
+			<h6><semester>Event Calendar</semester></h6>
+                                <Container>
+                                        <Row className="show-grid text-center">
+                                                <iframe 
+                                                        src="https://calendar.google.com/calendar/embed?src=utdwwc%40gmail.com&ctz=America%2FMexico_City" 
+                                                        width="1500"
+                                                        height="650"
+                                                        frameborder="0"
+                                                        scrolling="no"
+                                                        align = "middle">
+                                                </iframe>
+                                        </Row>
+                                </Container>
+                        <h6><semester>Spring 2020</semester></h6><br></br>
+                        <Container>
 			<Row className="show-grid text-center">
 			<Col xs={12} sm={4}>
 			<Card className="event-card">
