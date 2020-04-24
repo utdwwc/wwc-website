@@ -7,168 +7,208 @@ export default class Home extends Component {
 		return (
 			<div>	
 				<div class="overlay">
-					<h6>
+					<Card className="overlay-card">
+						<Card.Title><h6>
 						<main-title>
-							Women Who Compute
+							<mark className="fuck">WOMEN WHO COMPUTE</mark>
 						</main-title>
-					</h6>
+					</h6><br></br>
 					<h3>
 						<sub-title>
-							The University of Texas at Dallas
+							<mark className="fuck">The University of Texas at Dallas</mark>
 						</sub-title>
 					</h3>
-					<a href="#who-we-are" class="fa fa-arrow-circle-down" aria-hidden="true"></a>
+					</Card.Title>
+					</Card>
 				</div>
-
-				<Carousel className="carousel carousel-fade">
-					<Carousel.Item>
-						<img className="carousel-image" src="assets/wwc-sm.jpg" alt="First Slide" />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className ="carousel-image" src="assets/wwc-cbre.jpg" alt="Second Slide" />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className="carousel-image" src="assets/wwc-fm.jpg" alt="Third Slide" />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className="carousel-image" src="assets/wwc-intuit.jpg" alt="Fourth Slide" />
-					</Carousel.Item>
-					<Carousel.Item>
-						<img className="carousel-image" src="assets/wwc-mcafee.jpg" alt="Fifth Slide" />
-					</Carousel.Item>
-				</Carousel>
-				
-				<div id="who-we-are">
+				<Jumbotron className="jumbotron-home">
+				</Jumbotron>
+					<div id="who-we-are" className="info-div">
 					<a href="who-we-are"></a>
-					<Jumbotron className="jumbotron-infobox">
-						<h6>Who We Are</h6>
-						<hr></hr>
-						<h2>
-							Women Who Compute is a community for women pursuing careers in engineering and computer science at The University of Texas at Dallas. We aim to provide opportunities for mentorship, personal and professional development, and social bonding with women of paralleled interests in computing.<br></br><br></br>
-							Representing <strong>one of the largest women-advocating organizations on campus</strong>, Women Who Compute strives to:<br></br><br></br>
-							<Row className="show-grid align-items-center">
-								<Col sm={{ size: 4 }}>
-									<Card className="goals-card">
-										<Card.Body>
-											<ol>
-												Cultivate a <strong>community</strong> of female engineering and computer science students at the University of Texas at Dallas.
-											</ol>
-										</Card.Body>
-									</Card>
-								</Col>
-								<Col sm={{ size: 4 }}>
-									<Card className="goals-card">
-										<Card.Body>
-											<ol>
-												Provide <strong>mentorship</strong> and <strong>support</strong> to women in computing to give them confidence to pursue a career of their interests.
-											</ol>
-										</Card.Body>
-									</Card>
-								</Col>
-								<Col sm={{ size: 4 }}>
-									<Card className="goals-card">
-										<Card.Body>
-											<ol>
-												Provide personal and professional <strong>development</strong> to prepare for opportunities in engineering and computer science.
-											</ol>
-										</Card.Body>
-									</Card>
-								</Col>
-								<Col sm={{ size: 4 }}>
-									<Card className="goals-card">
-										<Card.Body>
-											<ol>
-												<strong>Encourage women</strong> to pursue a diverse range of career paths in the fields of engineering and computer science.
-											</ol><br></br>
-										</Card.Body>
-									</Card>
-								</Col>
-							</Row>
-							As an organization, Women Who Compute hopes to successfully seek the interest of its member base to provide them with proper support and encouragement to puruse the numerous opportunities available for them engineering and computer science.
-						</h2>
-					</Jumbotron>
-				</div>
-				
-				<Jumbotron className="jumbotron-eventbox">
-
-					<h6>Recent Events</h6>
-
-					<hr></hr>
-
-					<Jumbotron className="jumbotron-flyerbox">
-						<Row className="show-grid text-center">
-							<Col sm={{ size: 3 }}>
-								<Card className="flyer-card">
-									<a href="/s20events/fannie-mae-spring-resume-review" class="btn">
-									<Card.Img src="assets/fannie-mae-flyer-2.jpg" className="flyer" />
-									<Card.Body>
-										<Card.Title>
-											<card-title>Fannie Mae Panel</card-title>
-										</Card.Title>
-									</Card.Body>
-									</a>
+						<Jumbotron className="jumbotron-infobox">
+							<h6>ABOUT US</h6>
+							<div className="description-div">
+							<h2>
+								We aim to provide mentorship, personal and professional development, and encouragement for women of paralleled interests in computing.
+							</h2>
+							</div>	
+							<h2>
+								<div className="pic-div">
+								<Row className="show-grid align-items-center">
+									<Col>
+										<Card className="goals-card">
+										<Card.Title>We're Supportive.</Card.Title>
+										<Image className="goals-image" src="assets/wwc-members.jpg" />	
+										</Card>
+									</Col>
+									<Col>
+										<Card className="goals-card">
+										<Card.Title>We're Professional.</Card.Title>
+										<Image className="goals-image" src="assets/mentorship.jpg" />
+										</Card>
+									</Col>
+									<Col>
+										<Card className="goals-card">
+										<Card.Title>We're Passionate.</Card.Title>
+										<Image className="goals-image" src="assets/career-ops.jpg" />
+										</Card>
+									</Col>
+								</Row>
+								</div>
+							</h2>
+						</Jumbotron>
+					</div>
+					<div className="showcase-div">
+						<Row className="showcase-row">
+							<Col md={3} className="flex-item">
+								<i class="fa fa-lightbulb-o"></i>
+							</Col>
+							<Col md={3} className="flex-item">
+								<Card className="showcase-card">
+									<Card.Title><h2><bolded-text>SPEED MENTORING</bolded-text></h2></Card.Title>
 								</Card>
 							</Col>
-								
-							<Col sm={{ size: 3 }}>
-								<Card className="flyer-card">
-									<a href="/s20events/spring-intern-fair-ws" class="btn">
-										<Card.Img src="assets/intern-fair-flyer.jpg" className="flyer" />
-										<Card.Body>
-											<Card.Title>
-												<card-title>Intern Fair Workshop</card-title>
-											</Card.Title>
-										</Card.Body>
-									</a>
-								</Card>
+							<Col md={3} className="flex-item">
+								<Card className="showcase-desc-card">
+									<Card.Body><h2><showcase-item-description>Speed Mentoring is a great opportunity to network one-on-one with engineers and recruiters from companies in the Dallas area. Just bring a blazer, your resume, and the best elevator pitch you've got and learn what it takes to land internships and full-time positions at these outstanding companies.</showcase-item-description></h2></Card.Body>
+								</Card>		
 							</Col>
-
-							<Col sm={{ size: 3 }}>
-								<Card className="flyer-card">
-									<a href="/s20events/spring-semester-kickoff" class="btn">
-										<Card.Img src="assets/spring-kickoff.jpg" className="flyer" />
-										<Card.Body>
-											<Card.Title>
-												<card-title>Spring Kickoff</card-title>
-											</Card.Title>
-										</Card.Body>
-									</a>
-								</Card>
-							</Col>				
 						</Row>
-							
-						<a class="btn btn-default" href="/events">More</a>
+						<Row className="showcase-row">
+							<Col md={3} className="flex-item">
+								<i class="fa fa-code"></i>
+							</Col>
+							<Col md={3} className="flex-item">
+								<Card className="showcase-card">
+									<Card.Title><h2><bolded-text>TECHNICAL WORKSHOPS</bolded-text></h2></Card.Title>
+								</Card>
+							</Col>
+							<Col md={3} className="flex-item">
+								<Card className="showcase-desc-card">
+									<Card.Body><h2><showcase-item-description>To help you feel more confident in your technical skills as an computer science or engineering student, we provide a variety of technical workshops. Hosted by company engineers and our very own officer team, we hope to build your knowledge on fundamental programming skills to be land internships and full-time opportunities.</showcase-item-description></h2></Card.Body>
+								</Card>		
+							</Col>
+						</Row>
+						<Row className="showcase-row">
+							<Col md={3} className="flex-item">
+								<i class="fa fa-briefcase"></i>
+							</Col>
+							<Col md={3} className="flex-item">
+								<Card className="showcase-card">
+									<Card.Title><h2><bolded-text>CAREER TALKS</bolded-text></h2></Card.Title>
+								</Card>
+							</Col>
+							<Col md={3} className="flex-item">
+								<Card className="showcase-desc-card">
+									<Card.Body><h2><showcase-item-description>Are you curious about learning more about what engineers do in a corporate setting? We hosts career talks with various companies so you have the opportunity to learn about the nature of the work done and what skills are necessary to succesfully perform certain job functions.</showcase-item-description></h2></Card.Body>
+								</Card>		
+							</Col>
+						</Row>
+						<Row className="showcase-row">
+							<Col md={3} className="flex-item">
+								<i class="fa fa-cogs"></i>
+							</Col>
+							<Col md={3} className="flex-item">
+								<Card className="showcase-card">
+									<Card.Title><h2><bolded-text>WEHack 2020</bolded-text></h2></Card.Title>
+								</Card>
+							</Col>
+							<Col md={3} className="flex-item">
+								<Card className="showcase-desc-card">
+									<Card.Body><h2><showcase-item-description>WEHack is UTD's first women and non-binary focused hackathon aimed on highlghting and empowering students through technology. Not only does this hackathon help build technical skills, it encourages underrepresented communities to cultivate innovative solutions to challenging problems.</showcase-item-description></h2></Card.Body>
+								</Card>		
+							</Col>
+						</Row>
+						</div>
+						<div className="sisterorg-div">
+						<Jumbotron className="jumbotron-sisterorgs">
+							<div className="description-div">
+								<h2><bolded-text>
+									Learn more about how we're working to expand the community of women engineers at UT Dallas.
+								</bolded-text></h2>
+							</div>
+							<Container>
+								<div class="item">
+									<Image src="assets/wicys-3.png" className="wicys-logo" />
+								</div>
+								<div class="item">
+									<Image src="assets/girls-who-code-logo.png" className="gwc-logo" />
+								</div>	
+								</Container>
+						</Jumbotron>
+					</div>
+						<Jumbotron className="jumbotron-company">
+						<h2><bolded-text>Thank you to these companies for supporting women in technology!</bolded-text></h2>
+						<div className="company-div">
+							<Container>
+								<div class="item">
+									<Image src="assets/company-logos/fannie-mae-logo.png" className="img" />
+								</div>
+								<div class="item">
+									<Image src="assets/company-logos/cbre-logo.png" className="img" />
+								</div>
+								<div class="item">
+									<Image src="assets/company-logos/jpmorgan-logo.png" className="img" />
+								</div>
+								<div class="item">
+									<Image src="assets/company-logos/mcafee-logo.png" className="img" />
+								</div>
+								<div class="item">
+									<Image src="assets/company-logos/att-logo.png" className="img" />
+								</div>
+							</Container>
+							<Container>
+								<div class="item">
+									<Image src="assets/company-logos/usaa-logo.png" className="img" />
+								</div>
+								<div class="item">
+									<Image src="assets/company-logos/celanese-logo.png" className="img" />
+								</div>
+								<div class="item">
+									<Image src="assets/company-logos/state-farm-logo.png" className="img" />
+								</div>
+								<div class="item">
+									<Image src="assets/company-logos/intuit-logo.png" className="img" />
+								</div>
+								<div class="item">
+									<Image src="assets/company-logos/cisco-logo.png" className="img" />
+								</div>
+							</Container>
+							<Container>
+								<div class="item">
+									<Image src="assets/company-logos/allstate-logo.png" className="img" />
+								</div>
+								<div class="item">
+									<Image src="assets/company-logos/rladies-logo.png" className="img" />
+								</div>
+								<div class="item">
+									<Image src="assets/company-logos/corelogic-logo.png" className="img" />
+								</div>
+								<div class="item">
+									<Image src="assets/company-logos/blueyonder-logo.png" className="img" />
+								</div>
+								<div class="item">
+									<Image src="assets/company-logos/american-airlines-logo.png" className="img" />
+								</div>
+							</Container>
+						</div>
 					</Jumbotron>
-				</Jumbotron>
-
-				<Jumbotron className="jumbotron-sisterorgs">
-					<h6>
-						Sister Organizations
-					</h6>
-					<hr></hr>
-					<h2>
-						To reach out to as many members as possible, Women Who Compute has partnered with the following organizations to represent their national chapters at UT Dallas. 
-					</h2>
-					
-					<Row>
-						<Col sm={{ size: 1 }} className="person-wrapper">
-							<Card className="logo-card">
-								<a href="/wicys" class="btn">
-									<Card.Img src="assets/wicys-logo.jpg" className="wicys-logo" />
-								</a>
-							</Card>
-						</Col>
-						<Col sm={{ size: 1 }} className="person-wrapper">
-							<Card className="logo-card">
-								<a href="/girls-who-code" class="btn">
-									<Card.Img src="assets/girls-who-code-logo.jpg" className="gwc-logo" />
-								</a>
-							</Card>
-						</Col>
-					</Row>
-				
-				</Jumbotron>
-				
+					<div className="contact-div">
+						<Jumbotron className="jumbotron-contactus">
+							<div className="description-div">
+								<hr></hr>
+								<h6><collab-title>Interested in collaborating?</collab-title></h6>
+								<div className="workwithus-div">
+									<h2>
+									<bolded-text>We'd love to work with you.</bolded-text>
+									</h2>
+								</div>
+								<div className="workwithus-div">
+									<h2>Contact us today at utdwwc@gmail.com!</h2>
+								</div>
+							</div>
+						</Jumbotron>
+					</div>
 				<div class="footer">
 					<div class="container text-center">
 						<Row>

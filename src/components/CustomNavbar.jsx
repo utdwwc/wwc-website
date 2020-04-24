@@ -12,10 +12,9 @@ export default class CustomNavbar extends Component {
       <Nav.Link href="/events"><nav-tab>EVENTS</nav-tab></Nav.Link>
       <Nav.Link href="/officers"><nav-tab>TEAM</nav-tab></Nav.Link>
       <Nav.Link href="/membership-faqs"><nav-tab>FAQs</nav-tab></Nav.Link>
-      <NavDropdown title=<nav-tab>SISTER ORGANIZATIONS</nav-tab> id="nav-dropdown">
-        <NavDropdown.Item href="/wicys"><nav-tab>WiCyS</nav-tab></NavDropdown.Item>
-        <NavDropdown.Item href="/girls-who-code"><nav-tab>Girls Who Code</nav-tab></NavDropdown.Item>
-      </NavDropdown>
+      <Nav.Link href="/wicys"><nav-tab>WICYS</nav-tab></Nav.Link>
+      <Nav.Link href="girls-who-code"><nav-tab>GIRLS WHO CODE</nav-tab></Nav.Link>
+      <Nav.Link href="/apparel"><nav-tab>APPAREL</nav-tab></Nav.Link>
     </Nav>
     <Nav className="ml-auto">
       <a href="https://facebook.com/groups/utdwwc" target="_blank" class="fa fa-facebook-square"></a>

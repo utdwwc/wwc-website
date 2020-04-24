@@ -55,10 +55,9 @@ event-date {
 }
 
 .event-card:hover {
-	background-color: #bddce1;
+	background-color: #FA99AE;
 	transition: background 0.6s ease; 
 }
-
 
 h3 {
 	margin-top: 10px;

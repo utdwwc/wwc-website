@@ -1,296 +1,569 @@
-.carousel {
-	margin-top: 0px;
-	margin-bottom: 100px;
-	max-width: 2200px;
-	transition: transform 2s ease, opacity .5s ease-out;
-}
+/* STYLING FOR LAPTOP/DESKTOP DEVICES*/
+@media (min-device-width: 1024px) and (max-device-width: 1920px) {
+	.main-carousel {
+		margin-top: 0px;
+		margin-bottom: 10%;
+	}
 
-.carousel-fade , .carousel-control {
-    z-index: 2;
-}
+	.carousel-image {
+		width: 100%;
+		filter: brightness(65%);
+		background-attachment: fixed;
+	}
 
-.carousel-fade , .carousel-inner , .item{
-	transition-property: opacity;
-}
-
-.carousel-fade , .carousel-inner , .item, .active.left, .active.right{
-	opacity: 0;	
-}
-
-.carousel-fade , .carousel-inner , .active, .next.left, .prev.right {
-	opacity: 1;
-}
-
-.carousel-fade , .carousel-inner , .next, .prev, .active.left, .active.right {
-	left: 0;
-	transform: translate3d(0, 0, 0);
-}
-
-
-.right.carousel-control, .left.carousel-control {
-	display: none;
-}
-
-.carousel-image {
-	height: 873px;
-	width: 2200px;
-    filter: brightness(65%);	
-}
-
-.overlay { 
-  color: white;
-  position:absolute;
-  z-index:12;
-  top: 45%;
-  left:0;
-  width:100%;
-  text-align:center;
-}
-
-main-title {
-	color: white;
-	font-size: 90px;
-	font-weight: 900;
-	font-family: 'Montserrat', sans-serif;
-}
-
-sub-title {
-	color: white;
-	font-size: 50px;
-	font-weight: 300;
-	font-family: 'Raleway', sans-serif;
-}
-
-html {
-	scroll-behavior: smooth;
-}
-
-body {
-	zoom: 0.9;
-}
-.fa-arrow-circle-down {
-	margin-top: 10px;
-        font-size: 85px;
-        text-align: center;
-        color: white;
-}
-
-.fa-arrow-circle-down:hover {
-        color: #0097A7;
-        text-decoration: none;
-}
-
-.jumbotron-infobox {
-    background-color: white;
-	margin-top: 20px;
-	margin-bottom: 100px;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-.jumbotron-eventbox {
-        background-color: white;
-        margin-top: 20px;
-        margin-bottom: 100px;
-        margin-left: 10%;
-        margin-right: 10%;
-
-}
-
-.jumbotron-flyerbox {
-	background-color: #0097a7;
-}
-
-.goals-card {
-	width: fit-content;
-	height: fit-content;
-	margin-top: 10%;
-	margin-bottom: 10%;
-	border: solid black;
-	border-width: 2px;
-	border-radius: 10px;
-	
-}
-
-.goals-card:hover {
-	background-color: #bddce1;
-	transition: background 0.6s ease;
-}
-
-.jumbotron-sisterorgs {
-	background-color: white;
-	margin-bottom: 100px;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-.wicys-logo {
-        margin-top: 40px;
-	margin-bottom: 30px;
-}
-
-.gwc-logo {
-	margin-top: 60px;
-	margin-bottom: 30px;
-}
-
-.footer-logo {
-	margin-top: 20px;
-	margin-left: 30px;
-	width: 85%;
-}
-
-.footer-wrapper {
-        margin-bottom: 2em;
-}
-
-.footer-icons a {
-        padding: 15px;
-        margin-bottom: 1em;
-        font-size: 29px;
-        color: black;
-}
-
-hr {
-	width: 150px;
-        height: 10px;
-        margin-top: -5px;
-	margin-bottom: 50px;
-        background-color: #0097a7;
-}
-
-.flyer-card {
-	background-color: #bddce1;
-	width: fit-content;
-	margin: auto;
-}
-
-.flyer-card:hover {
-	background-color: #65ADB9;
-	transition: background 0.6s ease;
-}
-
-
-.logo-card {
-	background-color: white;
-	border: solid black;
-	width: 70%;
-	margin: auto;
-	margin-top: 10%;
-	border-radius: 10px;
-	border-width: 2px;
-	box-shadow: 5px 10px #A4A9AD;
-
-}
-
-
-.flyer {
-	margin-top: 30px;
-	margin-left: 2px;
-	width: 280px;
-	height: 350px;
-}
-
-
-card-title {
-	font-family: 'Raleway', sans-serif;
-	font-size: 25px;
-	font-weight: 600;
-	color: black;
-	
-}
-
-
-.btn-default {
-    background-image: none;
-	width: 130px;
-	height: 50px;
-	display: block;
-	margin: auto;
-	margin-top: 5%;
-    border: solid #BDDCE1;
-	border-radius: 10%;
-	color: black;
-	font-size: 20px;
-	font-weight: 600;
-        font-family: 'Raleway', sans-serif;
-}
-
-.btn-default:hover {
-	background-color: #BDDCE1;
-	transition: background 0.6s ease;
-}
-
-.footer {
-	background-color: #0097a7;
-	color: white;
-	font-size: 15px;
-	padding: 90px 0 20px;
-}
-
-.footer-bottom {
-	background-color: #0097a7;
-	font-family: 'Raleway', sans-serif;
-	font-size: 17px;
-}
-
-.social-icons-footer a {
-        padding-right: 15px; 
-	margin-right: 1em;
-        font-size: 30px;
-        color: white;
-}
-
-.social-icons-footer a:hover {
-	text-decoration: none;
-	color: #16324F;
-}
-
-
-about-info {
-	font-family: 'Raleway', sans-serif;
-	font-size: 17px;
-	color: white;
-}
-
-quick-link {
-	font-family: 'Raleway', sans-serif;
-	font-size: 17px;
-	font-weight: 600;	
-	color: white;
-	
-}
-
-quick-link:hover {
-	text-decoration: white underline;
-}
-
-
-ft-head {
-	padding-top: 10px;
-	font-size: 23px;
-        font-family: 'Montserrat', sans-serif;
-}
-
-h2 {
-    left: 150px;
-    font-size: 30px;
-	color: black;
-	font-family: 'Raleway', sans-serif;
-}
-
-h6 {
+	.overlay { 
+	position: absolute;
+	z-index:12;
+	top: 40%;
+	width:100%;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 80px;
-	font-weight: 900;
-	color: black;
+	}
 
+	.overlay-card {
+		background: none;
+		border: none;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.jumbotron-home {
+		background-image: url("/assets/wwc-sm.jpg");
+		opacity: 0.95;
+		background-size: cover;
+		background-attachment: fixed;
+  		background-position: center;
+  		background-repeat: no-repeat;
+		height: 900px;
+		margin-bottom: 10%;
+	}
+
+	.jumbotron-infobox {
+		background-color:  white;
+		width: 95%;
+		height: 700px;
+		margin: auto;
+		margin-top: -9%;
+	}
+
+	.description-div {
+		width: 80%;
+		margin: auto;
+		margin-top: 1%;
+		margin-bottom: 3%;
+		text-align: center;
+	}
+
+	.pic-div {
+		width: 100%;
+		margin: auto;
+	}
+
+	.goals-card {
+		width: 550px;
+		height: 400px;
+		padding: 10px;
+		margin: auto;
+		border: none;
+	}
+
+	.goals-card .card-title {
+		margin-top: 5%;
+		margin-bottom: -4%;
+		text-align: center;
+		font-family: 'Inter', sans-serif;
+		font-size: 32px;
+		font-weight: bold;
+	}
+
+	.goals-image {
+		width: 70%;
+		margin: auto;
+	}
+
+	.wicys-logo {
+		width: 500px;
+		height: 250px;
+	}
+
+	.wicys-logo:hover {
+		transition: all .4s ease-in-out;
+		transform: scale(1.1);
+	}
+
+	.gwc-logo {
+		width: 450px;
+		height: 200px;
+	}
+
+	.gwc-logo:hover {
+		transition: all .4s ease-in-out;
+		transform: scale(1.1);
+	}
+
+	.sisterorg-div {
+		margin-top: 2%;
+		margin-bottom: 5%;
+	}
+
+	.jumbotron-sisterorgs {
+		background-color: #F7F7F7;
+		background-size: cover;
+		background-attachment: fixed;
+  		background-position: center;
+  		background-repeat: no-repeat;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin: auto;
+		padding-top: 70px;
+		padding-bottom: 70px;
+		padding-left: 70px;
+		padding-right: 70px;
+		height: 500px;
+	}
+
+	.showcase-div {
+		width: 70%;
+		height: 1050px;
+		margin: auto;
+		margin-bottom: 2%;
+	}
+
+	.showcase-item {
+		align-self: center;
+		padding: 15px;
+	}
+
+	.showcase-row {
+		padding: 10px;
+	}
+	.showcase-row:hover {
+		background-color: #F0F0F0;
+		transition:  all .5s ease-in-out;
+	}
+
+	.showcase-card {
+		width: 100%;
+		margin-left: -75%;
+		border: none;
+		background-color: transparent;
+	}
+
+	.showcase-desc-card {
+		margin-left: -70%;
+		width: 210%;
+		border: none;
+		background-color: transparent;
+	}
+
+	.fa-lightbulb-o{
+		font-size: 50px;
+   		background-color: #25274D;
+		border-radius: 50%;
+		color: white;
+		display: table-cell;
+		vertical-align: middle; 
+		text-align: center;
+		text-decoration: none;
+	  	height: 80px;
+	 	width: 80px;
+	}
+
+	.fa-code {
+		font-size: 50px;
+   		background-color: #006D94;
+		border-radius: 50%;
+		color: white;
+		display: table-cell;
+		vertical-align: middle; 
+		text-align: center;
+		text-decoration: none;
+	  	height: 80px;
+	 	width: 80px;
+	}
+
+	.fa-briefcase {
+		font-size: 50px;
+   		background-color: #0092AA;
+		border-radius: 50%;
+		color: white;
+		display: table-cell;
+		vertical-align: middle; 
+		text-align: center;
+		text-decoration: none;
+	  	height: 80px;
+	 	width: 80px;
+	}
+
+	.fa-cogs {
+		font-size: 50px;
+   		background-color: #68DAB8;
+		border-radius: 50%;
+		color: white;
+		display: table-cell;
+		vertical-align: middle; 
+		text-align: center;
+		text-decoration: none;
+	  	height: 80px;
+	 	width: 80px;
+	}
+	.event-div {
+		margin-top: 2%;
+		margin-bottom: 5%;
+	}
+	
+	.jumbotron-eventbox {
+		background-color: white;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin: auto;
+		width: 90%;
+		height: 750px;
+
+	}
+
+	.flex-container {
+		text-align: center;
+	}
+
+	.flex-item {
+		float: none;
+		margin: auto;
+	}
+
+	.flex-item + .flex-item {
+		margin-left: -15%;
+	}
+
+	.flyer-card {
+		width: 90%;
+		align-items: center;
+		margin: auto;
+		padding: 10px;
+		color: black;
+	}
+
+	.flyer-card:hover {
+		transition: all .4s ease-in-out;
+		background-color: #E3F4F1;
+	}
+
+	.flyer-img {
+		width: 30%;
+	}
+
+	.team-div {
+		margin-top: 2%;
+	}
+
+	.team-carousel {
+		height: 500px;
+	}
+
+	.team-carousel .carousel-control {
+		display: none;
+	}
+
+	.team-carousel .carousel-indicators li {
+		box-sizing: content-box;
+    	-ms-flex: 0 1 auto;
+    	flex: 0 1 auto;
+    	width: 15px;
+    	height: 15px;
+    	line-height: 30px;
+    	border-radius: 50%;
+    	text-align: center;
+    	margin-right: 3px;
+    	margin-left: 3px;
+    	text-indent: unset;
+    	cursor: pointer;
+    	background-color: #25274D;
+    	background-clip: unset;
+    	border-top: 0;
+    	border-bottom: 0;
+    	transition: opacity .6s ease;
+	}
+
+	.teammember-card {
+		width: 70%;
+		align-items: center;
+		margin: auto;
+	}
+
+	.teamcard-image {
+		width: 85%;
+		margin-top: 7%;
+		margin-bottom: 2%;
+		
+	}
+
+	.flex-column {
+		float: none;
+		margin: auto;
+	}
+
+	.flex-column + .flex-column {
+		margin-left: -25%;
+	}
+
+	.contact-div {
+		margin-top: 2%;
+	}
+
+	.jumbotron-contactus {
+		margin-bottom: 10%;
+	}
+
+	.workwithus-div {
+		padding: 15px;
+		margin-top: 1%;
+	}
+	.company-div {
+		margin-top: 2%;
+
+	}
+
+	.jumbotron-company {
+		height: 700px;
+		margin-bottom: -2%;
+		background-color: white;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		max-width: 1300px;
+	}
+
+	.item {
+		align-self: auto;
+	}
+
+	.img {
+		width: 80%;
+	}
+
+	.logo-card {
+		border: none;
+		width: 70%;
+		margin: auto;
+		margin-top: 10%;
+	}
+
+	hr {
+		width: 100px;
+		height: 0.25px;
+		margin-bottom: 2%;
+		background-color: black;
+	}
+
+	main-title {
+		color: white !important;
+		font-size: 90px;
+		font-weight: 900;
+		font-family: 'Inter', sans-serif;
+	}
+	.fuck {
+		background-color: #25274D !important;
+		opacity: 0.8;
+		color: white !important;
+
+	}
+
+	sub-title {
+		color: white;
+		font-size: 45px;
+		font-weight: 300;
+		font-family: 'Inter', sans-serif;
+
+	}
+
+	bolded-text {
+		font-weight: 600;
+	}
+
+	collab-title {
+		font-size: 75px;
+	}
+	showcase-item-description {
+		font-size: 20px;
+	}
+	teammember-name {
+		font-size: 28px;
+		font-weight: 900;
+	}
+
+	teammember-position {
+		font-size: 20px;
+
+	}
+
+	h2 {
+		text-align: center;
+		margin: auto;
+		font-size: 30px;
+		color: black;
+		font-family: 'Inter', sans-serif;
+	}
+
+	h6 {
+		text-align: center;
+		font-family: 'Inter', sans-serif;
+		font-size: 85px;
+		font-weight: 550;
+		color: black;
+
+	}
+
+	body {
+		background-color: white;
+	}
+/******************************************************************/
+	html {
+		scroll-behavior: smooth;
+	}
+
+	/*.fa-arrow-circle-down {
+		margin-top: 5%;
+		font-size: 100px;
+		text-align: center;
+		color: white;
+	}*/
+
+	/*.fa-arrow-circle-down:hover {
+		color: #2F2FA2;
+		text-decoration: none;
+	}*/
+	
+	.pic-div {
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+	
+	.info-div {
+		margin-top: 2%;
+		margin-bottom: 5%;
+	}
+
+	.footer-logo {
+		margin-top: 20px;
+		margin-left: 30px;
+		width: 85%;
+	}
+
+	.footer-wrapper {
+			margin-bottom: 2em;
+	}
+
+	.footer-icons a {
+			padding: 15px;
+			margin-bottom: 1em;
+			font-size: 29px;
+			color: black;
+	}
+
+	.flyer {
+		/*margin-top: 30px;
+		margin-left: 2px;
+		width: 280px;
+		height: 350px;*/
+		width: 80%;
+		height: 450px;
+	}
+
+
+	card-title {
+		font-family: 'Raleway', sans-serif;
+		font-size: 25px;
+		font-weight: 600;
+		color: black;
+		
+	}
+
+
+	.btn-default {
+		background-image: none;
+		width: 130px;
+		height: 50px;
+		display: block;
+		margin: auto;
+		margin-top: 5%;
+		border: solid #BDDCE1;
+		border-radius: 10%;
+		color: black;
+		font-size: 20px;
+		font-weight: 600;
+			font-family: 'Raleway', sans-serif;
+	}
+
+	.btn-default:hover {
+		background-color: #BDDCE1;
+		transition: background 0.6s ease;
+	}
+
+	.footer {
+		background-color: #25274D;
+		color: white;
+		font-size: 15px;
+		padding: 90px 0 20px;
+	}
+
+	.footer-bottom {
+		background-color: #25274D;
+		font-family: 'Raleway', sans-serif;
+		font-size: 17px;
+	}
+
+	.social-icons-footer a {
+			padding-right: 15px; 
+		margin-right: 1em;
+			font-size: 30px;
+			color: white;
+	}
+
+	.social-icons-footer a:hover {
+		text-decoration: none;
+		color: #F64C72;
+	}
+
+
+	about-info {
+		font-family: 'Raleway', sans-serif;
+		font-size: 17px;
+		color: white;
+	}
+
+	quick-link {
+		font-family: 'Raleway', sans-serif;
+		font-size: 17px;
+		font-weight: 600;	
+		color: white;
+		
+	}
+
+	quick-link:hover {
+		text-decoration: white underline;
+	}
+
+
+	ft-head {
+		padding-top: 10px;
+		font-size: 23px;
+			font-family: 'Montserrat', sans-serif;
+	}
 }
 
-body {
-	background-color: #EFEFEF;
-}
+/* STYLING FOR MOBILE DEVICES */
+@media (min-width: 320px) and (max-width: 480px) {
+	body{
+		background-color: red;
+	}
 
+	h6 {
+		font-family: "Times New Roman";
+		color: pink;
+	}
+}
 
 

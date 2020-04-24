@@ -61,7 +61,7 @@ export default class Officers extends Component {
                         </Col>
 			<Col xs={12} sm={4}>
                         <Card className="officer-card">
-                        <Card.Img src="assets/nicole-hui.jpg" className="profile-pic" />
+                        <Card.Img src="assets/nicole-hui.JPG" className="profile-pic" />
                         <Card.Body>
                         <Card.Text>
                         <h3>Nicole<br></br>Hui</h3>
